@@ -8,7 +8,7 @@ https://cdn.jsdelivr.net/gh/davidchatting/cdn/<path>
 
 ## Contents
 
-### `opencv/opencv.js`
+### `opencv/4.5.1/opencv.js`
 
 A prebuilt browser/WASM build of [OpenCV.js](https://docs.opencv.org/4.x/d5/d10/tutorial_js_root.html).
 
