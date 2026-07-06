@@ -18,10 +18,6 @@ A prebuilt browser/WASM build of [OpenCV.js](https://docs.opencv.org/4.x/d5/d10/
 - **Modules excluded:** `highgui`, `imgcodecs`, `ml`, `stitching`, `videoio`, `world` (browser build - no native GUI/file I/O)
 - Confirmed at runtime via `cv.getBuildInformation()`.
 
-### `shimage/1.2.0/shimage.js`
+## Related
 
-Image shims for p5.js - converting between `ImageBitmap`/`HTMLCanvasElement`/`cv.Mat` and `p5.Image`, plus WEBGL texture helpers.
-
-- **Version:** 1.2.0
-- **License:** MIT
-- Source of truth is [davidchatting/shimage](https://github.com/davidchatting/shimage); copied here in step with its tagged releases.
+- [davidchatting/shimage](https://github.com/davidchatting/shimage) - image shims for p5.js. jsDelivr can serve any public repo's tagged releases directly (`cdn.jsdelivr.net/gh/davidchatting/shimage@<version>/shimage.js`), so it doesn't need a vendored copy here too.
